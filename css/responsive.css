@@ -404,4 +404,31 @@ xx-large >=1400px
         font-size: 0.8rem;
     }
 }
+@media (max-width: 493px) {
+    .frequently .accordion .question h3 {
+        font-size: 16px;
+    }
+    .frequently .accordion .question i {
+        font-size: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .frequently .accordion {
+        padding: 13px 10px;
+    }
+    .frequently .accordion .question h3 {
+        font-size: 14px;
+    }
+    .frequently .accordion .question i {
+        font-size: 13px;
+    }
+}
+@media (max-width: 357px) {
+    .frequently .accordion .question h3 {
+        font-size: 12px;
+    }
+    .frequently .accordion .question i {
+        font-size: 10px;
+    }
+}
 /* end frequently section */

@@ -418,10 +418,24 @@ xx-large >=1400px
     }
     .frequently .accordion .question h3 {
         font-size: 14px;
+<<<<<<< HEAD
         line-height: var(--line-height);
+=======
+>>>>>>> ab015664121f184c19f428edfc9eb72c79673caa
     }
     .frequently .accordion .question i {
         font-size: 13px;
     }
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 357px) {
+    .frequently .accordion .question h3 {
+        font-size: 12px;
+    }
+    .frequently .accordion .question i {
+        font-size: 10px;
+    }
+}
+>>>>>>> ab015664121f184c19f428edfc9eb72c79673caa
 /* end frequently section */

@@ -721,7 +721,11 @@ figure {
     width: 800px;
     max-width: 100%;
     margin: auto;
+    background: url("../images/faq_bg_wattermark.png") no-repeat;
+    background-position: center;
+    background-size: 50%;
 }
+
 .frequently .accordion {
     padding: 20px 25px;
     background: rgba(255, 255, 255, 0.05);
@@ -755,7 +759,8 @@ figure {
     line-height: var(--line-height);
 }
 .frequently .active .answer {
-    height: fit-content;
+    height: 96px;
+    max-height: fit-content;
     padding-top: 15px;
     color: rgba(255, 255, 255, 0.7);
 }

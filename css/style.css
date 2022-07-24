@@ -5,7 +5,6 @@ nav {
     width: 100%;
     z-index: 10000;
 }
-
 nav .container {
     display: flex;
     align-items: center;
@@ -587,6 +586,9 @@ figure {
 .goal {
     position: relative;
     z-index: 1;
+    background-image: url("../images/bithu_roadmap_mash_Grad.png");
+    background-position: 50% -972px;
+    overflow-y: hidden;
 }
 .goal figure {
     margin: 40px 0;
@@ -595,7 +597,7 @@ figure {
     max-width: 100%;
 }
 .goal .swiper-wrapper {
-    transition-timing-function: linear;
+    transition-timing-function: ease-in-out;
 }
 
 .goal .box {
@@ -614,12 +616,6 @@ figure {
     line-height: var(--line-height);
     opacity: 0.8;
     font-size: 16px;
-}
-.goal .roadmap_grad {
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    z-index: -1;
 }
 /* end goal section */
 
@@ -747,33 +743,7 @@ figure {
 .frequently .accordion .question h3 {
     font-weight: 400;
 }
-@media (max-width: 493px) {
-    .frequently .accordion .question h3 {
-        font-size: 16px;
-    }
-    .frequently .accordion .question i {
-        font-size: 15px;
-    }
-}
-@media (max-width: 430px) {
-    .frequently .accordion {
-        padding: 13px 10px;
-    }
-    .frequently .accordion .question h3 {
-        font-size: 14px;
-    }
-    .frequently .accordion .question i {
-        font-size: 13px;
-    }
-}
-@media (max-width: 357px) {
-    .frequently .accordion .question h3 {
-        font-size: 12px;
-    }
-    .frequently .accordion .question i {
-        font-size: 10px;
-    }
-}
+
 .frequently .accordion .answer {
     overflow: hidden;
     height: 0;

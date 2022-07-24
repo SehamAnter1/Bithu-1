@@ -120,14 +120,19 @@ img {
 }
 
 .special-heading h2 {
-    font-size: 33px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    margin-top: 16px;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-top: 15px;
 }
-@media (max-width: 336px) {
+@media (min-width: 345px) and (max-width: 410px) {
     .special-heading h2 {
-        font-size: 28px;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 344px) {
+    .special-heading h2 {
+        font-size: 1.6rem;
     }
 }
 /* end sections heading */

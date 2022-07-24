@@ -404,4 +404,24 @@ xx-large >=1400px
         font-size: 0.8rem;
     }
 }
+@media (max-width: 493px) {
+    .frequently .accordion .question h3 {
+        font-size: 16px;
+    }
+    .frequently .accordion .question i {
+        font-size: 15px;
+    }
+}
+@media (max-width: 430px) {
+    .frequently .accordion {
+        padding: 13px 10px;
+    }
+    .frequently .accordion .question h3 {
+        font-size: 14px;
+        line-height: var(--line-height);
+    }
+    .frequently .accordion .question i {
+        font-size: 13px;
+    }
+}
 /* end frequently section */

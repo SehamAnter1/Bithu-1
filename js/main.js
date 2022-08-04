@@ -33,7 +33,7 @@ document.addEventListener("click", (element) => {
 
 window.addEventListener("load", () => {
     let count = document.querySelector(".counter");
-    countDown(count, 500);
+    countDown(count, 1000);
 });
 function countDown(counter, speed) {
     let target = counter.dataset.count;

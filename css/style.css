@@ -691,6 +691,7 @@ figure {
 .team .team_member:hover .social {
     opacity: 1;
 }
+button:hover,
 .team .team_member:hover .social:hover i {
     cursor: pointer;
 }
@@ -768,3 +769,175 @@ figure {
     color: #fff;
 }
 /* end frequently section */
+/* footer */
+.footer {
+    background: url("../images/footerBg.png") no-repeat;
+    display: grid;
+    padding-bottom: 0;
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+}
+.footer .overlay {
+    background: linear-gradient(
+        180deg,
+        rgba(4, 15, 21, 0) 68%,
+        rgba(4, 14, 20, 0.270833) 82.52%,
+        #040c12 138%
+    );
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.footer .content {
+    margin: auto;
+}
+.footer .content ul {
+    position: relative;
+    z-index: 2;
+}
+.footer .content .landing_buttons {
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+.footer .content .landing_buttons button:last-of-type {
+    background: #5865f2;
+    border: none;
+}
+.footer .footer-nav {
+    position: absolute;
+    opacity: 0.97;
+    width: 100%;
+    height: 96px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+}
+.footer .footer-nav .container .logo {
+    line-height: 0;
+}
+.footer figure {
+    width: 90%;
+    margin: auto;
+}
+.footer .footer-nav .footerRight li {
+    margin-left: auto;
+}
+.footer .footerMid {
+    position: absolute;
+    left: calc(50% - 20px);
+}
+.footer .footerMid i {
+    font-size: 3rem;
+    font-weight: 100;
+}
+.footer .footer-nav ul {
+    height: 100%;
+}
+.footer .footer-nav .footerLeft {
+    margin-right: auto;
+}
+.footer .footer-nav .footerLeft div {
+    text-align: left;
+}
+.footer .footer-nav .footerLeft,
+.footer .footer-nav .footerRight {
+    width: 43%;
+}
+.footer h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.footer .content {
+    flex-basis: 50%;
+}
+.footer .footerRight {
+    background: url("../images/footerRight.png") no-repeat;
+    background-size: cover;
+}
+.footer .footerLeft {
+    background: url("../images/footerLeft.png") no-repeat;
+    background-size: cover;
+}
+.footer .footerRight li a,
+.footer .footerLeft div,
+.footer .footerLeft p,
+.footer .footerRight div {
+    margin: auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer figure div > img {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+.footer .landing_buttons {
+    margin-top: 3rem;
+    margin: auto;
+    width: fit-content;
+}
+.footer .footer-nav .container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.footer .content ul li {
+    background: #3a4044;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2%;
+}
+.footer ul li i {
+    color: #e6e7e8;
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    margin: auto;
+    /* max-inline-size: 5rem; */
+}
+.footerMid span a {
+    color: #e6e7e8;
+}
+
+.footer .content button:first-of-type {
+    margin-left: auto;
+}
+
+.footer .content button:last-of-type {
+    margin-right: auto;
+}
+
+.footer button i {
+    font-size: 23px;
+    margin-left: -26px;
+    line-height: 0.9;
+    position: absolute;
+}

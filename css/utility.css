@@ -103,9 +103,17 @@ h6 {
     -ms-transition: width var(--transition);
     -o-transition: width var(--transition);
 }
-
-.btn_doted:hover .dots_right {
-    right: 5px;
+button{
+    cursor: pointer!important;
+}
+.btn_doted:hover > .dots_right {
+    right: 5px!important;
+}
+li.btn_doted .dots_left {
+    left: -15px!important;
+}
+li.btn_doted:hover > .dots_left {
+    left: 5px!important;
 }
 
 /* end dots */

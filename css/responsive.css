@@ -465,7 +465,7 @@ xx-large >=1400px
     .footer .content ul {
         width: 70%;
     }
-    .footer .content .landing_buttons button:last-of-type {
+    .footer .content .landing_buttons button:last-of-type ,.footer .content .landing_buttons button:first-of-type{
         width: 200px;
     }
 }

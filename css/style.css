@@ -372,19 +372,6 @@ span.topLeft {
     margin-bottom: 5rem;
 }
 
-.carousel .howToMint .title h3,
-.about h3 {
-    color: #00ffa3;
-}
-
-.carousel .howToMint .title h2,
-.about h2 {
-    font-size: 2.5rem;
-    letter-spacing: 3px;
-    font-weight: 300;
-    line-height: 2;
-}
-
 .howToMint .howToMintContent ul {
     display: flex;
     justify-content: space-between;
@@ -544,10 +531,6 @@ figure {
     position: relative;
     z-index: 10;
     backdrop-filter: blur(1px);
-}
-
-.about h2 {
-    margin-bottom: 1rem;
 }
 
 /*  */
@@ -790,6 +773,7 @@ button:hover,
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 .footer .content {
     margin: auto;
@@ -819,6 +803,7 @@ button:hover,
     vertical-align: middle;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px);
+    z-index: 2;
 }
 .footer .footer-nav .container .logo {
     line-height: 0;

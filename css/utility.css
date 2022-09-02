@@ -103,17 +103,17 @@ h6 {
     -ms-transition: width var(--transition);
     -o-transition: width var(--transition);
 }
-button{
-    cursor: pointer!important;
+button {
+    cursor: pointer !important;
 }
 .btn_doted:hover > .dots_right {
-    right: 5px!important;
+    right: 5px !important;
 }
 li.btn_doted .dots_left {
-    left: -15px!important;
+    left: -15px !important;
 }
 li.btn_doted:hover > .dots_left {
-    left: 5px!important;
+    left: 5px !important;
 }
 
 /* end dots */
@@ -122,6 +122,9 @@ img {
 }
 /* sections heading */
 
+.special-heading {
+    margin-bottom: 1rem;
+}
 .special-heading h3 {
     color: var(--secondery-color);
     letter-spacing: 1px;
@@ -131,22 +134,18 @@ img {
     font-size: 2.5rem;
     letter-spacing: 3px;
     font-weight: 300;
-    margin-top: 15px;
+    line-height: 2;
 }
-@media (min-width: 345px) and (max-width: 410px) {
+@media screen and (max-width: 860px) {
     .special-heading h2 {
-        font-size: 2rem;
-    }
-}
-@media (max-width: 344px) {
-    .special-heading h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
     }
 }
 /* end sections heading */
 .py {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4.5rem;
 }
 .grid-4 {
     display: grid;

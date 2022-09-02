@@ -519,6 +519,6 @@ xx-large >=1400px
         width: 100%;
     }
     .footer {
-        padding-bottom: 0;
+        padding-bottom: 5rem;
     }
 }
